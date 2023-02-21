@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#658E13"
+    tools:context=".BawangActivity">
+
+    <TextView
+        android:layout_width="419dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="260dp"
+        android:background="#5F8F18"
+        android:gravity="center"
+        android:text="SELADA"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="290dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_max="3000dp"
+        app:srcCompat="@drawable/selada" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="344dp"
+        android:background="#5F8F18"
+        android:gravity="center"
+        android:text="Selada adalah tanaman tahunan dari keluarga Asteraceae. Ini paling sering ditanam sebagai sayuran daun, tetapi kadang-kadang untuk batang dan bijinya. Selada paling sering digunakan untuk salad, meskipun juga terlihat pada jenis makanan lain, seperti sup, sandwich, dan bungkus; bisa juga di panggang."
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
